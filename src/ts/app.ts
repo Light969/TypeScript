@@ -14,3 +14,7 @@ console.log(cart.items);
 cart.add(new Movie(1009, 'Мстители', 2012, 'США', 'Avengers Assemble!', 'Фантастика, Боевик, Фентази', '137 мин./02:17', 1500));
 
 console.log(cart.items);
+console.log(cart.totalCost());
+console.log(cart.totalCostDiscout(5));
+console.log(cart.deleteObjectById(1008));
+console.log(cart.items);
